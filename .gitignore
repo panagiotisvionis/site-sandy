@@ -1,0 +1,13 @@
+# Μυστικά - ΠΟΤΕ στο repo
+SSL_PrivateKEY_*
+*.key
+*PrivateKEY*
+
+# Παλιό hosting (papaki) - δεν χρειάζονται στο GitHub Pages
+.htaccess
+send-mail.php
+test.txt
+
+# Αχρησιμοποίητα / τοπικά
+ChatGPT Image*
+.vscode/
