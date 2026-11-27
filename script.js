@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
           headers: { Accept: 'application/json' },
         });
         if (!response.ok) throw new Error('send failed');
-        window.location.href = '/thank-you.html';
+        window.location.href = 'thank-you.html';
       } catch (err) {
         if (formMessage) {
           formMessage.textContent = 'Κάτι πήγε στραβά. Δοκιμάστε ξανά ή στείλτε email στο sandypf39@gmail.com.';
